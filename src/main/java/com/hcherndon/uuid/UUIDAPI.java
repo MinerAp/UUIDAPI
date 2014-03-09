@@ -44,6 +44,7 @@ public class UUIDAPI extends JavaPlugin implements Listener {
     public void onEnable() {
         uuidapi = this;
         getDataFolder().mkdirs();
+        getServer().getPluginManager().registerEvents(this, this);
         initialLoad();
     }
 
