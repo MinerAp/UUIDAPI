@@ -1,0 +1,4 @@
+name: UUIDAPI
+author: hcherndon
+version: 1.0
+main: com.hcherndon.uuid.UUIDAPI
