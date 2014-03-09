@@ -20,7 +20,7 @@ import java.util.logging.Level;
  * Created by hcherndon on 3/9/14.
  */
 public class UUIDAPI extends JavaPlugin implements Listener {
-    private final int THREAD_COUNT = 12; //In case anyone wants to change it. Should be a good number at 12 though.
+    private final int THREAD_COUNT = 12; //In case anyone wants to change it. Should be a good number at 12 though
 
     private static UUIDAPI uuidapi;
     public static UUIDAPI getUuidapi() {
