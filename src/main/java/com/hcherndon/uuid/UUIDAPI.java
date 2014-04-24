@@ -119,6 +119,10 @@ public class UUIDAPI extends JavaPlugin implements Listener {
             onGet.onUUIDGet(playerName, store.get().get(playerName));
     }
 
+    public void getUuidOfPlayer(String playerName) {
+        getStore().get().get(playerName);
+    }
+
     public Collection<Map.Entry<String, String>> getAllStoredUUIDS() {
         return Collections.unmodifiableCollection(store.get().entrySet());
     }
